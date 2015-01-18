@@ -4,12 +4,12 @@
 // @description Zeigt den SF-Status eines Bildes an.
 // @namespace	holzmaster
 // @include		http://pr0gramm.com*
-// @version		1.0.1
+// @version		1.0.0
 // @updateURL	https://raw.githubusercontent.com/pr0nopoly/sf-status/master/sf-status.user.js
 // @downloadURL	https://raw.githubusercontent.com/pr0nopoly/sf-status/master/sf-status.user.js
 // @copyright	2015+, holzmaster
 // @icon		http://pr0gramm.com/media/pr0gramm-favicon.png
-// @grant		GM_addStyle
+// @grant		none
 // ==/UserScript==
 
 (function() {
@@ -18,11 +18,22 @@
 	extensionStyle += ".extension-flags-2 { background-color: #F0AD4E; } /* #EE4D2E */\n";
 	extensionStyle += ".extension-flags-4 { background-color: #D9534F; } /* #F00 */\n";
 
+	function addStyle(css) {
+		var head = document.getElementsByTagName("head")[0];
+		if (!head)
+			return;
+
+		var style = document.createElement("style");
+		style.type = "text/css";
+		style.innerHTML = css;
+		head.appendChild(style);
+	};
+
 	$(function() {
 		p.View.Stream.Item.prototype.template =
 		p.View.Stream.Item.prototype.template
 			.replace('Bild googeln </a> </span> <?js } ?>',
 					 'Bild googeln </a> </span> <?js } ?> <span class="extension-flags extension-flags-{item.flags}">{p.Stream.FLAG_NAME[item.flags]}</span>');
-		GM_addStyle(extensionStyle);
+		addStyle(extensionStyle);
 	});
 })();
