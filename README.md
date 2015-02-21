@@ -3,6 +3,10 @@
 
 Zeigt den SF-Status eines Bildes an.
 
+![sfw](https://i.imgur.com/zOTzhCm.png)
+![nsfw](https://i.imgur.com/c8hpMdt.png)
+![nsfl](https://i.imgur.com/4WHYOPY.png)
+
 ## Installation
 1. Browser einrichten
   - Firefox benötigt [Greasemonkey](https://addons.mozilla.org/de/firefox/addon/greasemonkey/).
