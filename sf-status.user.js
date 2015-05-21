@@ -4,7 +4,8 @@
 // @description Zeigt den SF-Status eines Bildes an.
 // @namespace	holzmaster
 // @include		http://pr0gramm.com*
-// @version		1.1.0
+// @include		https://pr0gramm.com*
+// @version		1.1.1
 // @updateURL	https://raw.githubusercontent.com/pr0nopoly/sf-status/master/sf-status.user.js
 // @downloadURL	https://raw.githubusercontent.com/pr0nopoly/sf-status/master/sf-status.user.js
 // @copyright	2015+, holzmaster
