@@ -5,9 +5,9 @@
 // @namespace	holzmaster
 // @include		http://pr0gramm.com*
 // @include		https://pr0gramm.com*
-// @version		1.1.1
-// @updateURL	https://raw.githubusercontent.com/pr0nopoly/sf-status/master/sf-status.user.js
-// @downloadURL	https://raw.githubusercontent.com/pr0nopoly/sf-status/master/sf-status.user.js
+// @version		1.1.2
+// @updateURL	https://raw.githubusercontent.com/holzmaster/sf-status/master/sf-status.user.js
+// @downloadURL	https://raw.githubusercontent.com/holzmaster/sf-status/master/sf-status.user.js
 // @copyright	2015+, holzmaster
 // @icon		http://pr0gramm.com/media/pr0gramm-favicon.png
 // @grant		none
