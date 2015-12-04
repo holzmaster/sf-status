@@ -14,7 +14,7 @@ Zeigt den SF-Status eines Bildes an.
   - IE benötigt einen kompetenten Benutzer (nicht nachinstallierbar).
 2. Skript hierüber installieren (klick oder kopieren und in Adressleiste einfügen oder so):
 
-  [`https://raw.githubusercontent.com/pr0nopoly/sf-status/master/sf-status.user.js`](https://raw.githubusercontent.com/pr0nopoly/sf-status/master/sf-status.user.js)
+  [`https://holzmaster.github.io/sf-status/sf-status.user.js`](https://holzmaster.github.io/sf-status/sf-status.user.js)
 3. Beim pr0gramm F5 drücken.
 
 Updates kommen automatisch. Verbesserungen oder Vorschläge sind gerne gesehen.
