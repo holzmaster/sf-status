@@ -14,10 +14,11 @@
 // ==/UserScript==
 
 (function() {
-	var extensionStyle = ".flags { color: #FFF;	padding: 0 0.5em 0.1em 0.45em; /* 0.1em 0.5em 0.2em 0.45em; */	margin-left: 0.3em;	vertical-align: baseline;	text-transform: lowercase;	text-align: center;	text-shadow: 1px 1px 1px #7F7F7F;	line-height: 1;	font-weight: 700;	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	border-radius: 0.25em; }\n";
-	extensionStyle += ".flags-1 { background-color: #5CB85C; } /* #67D932 */\n";
-	extensionStyle += ".flags-2 { background-color: #F0AD4E; } /* #EE4D2E */\n";
-	extensionStyle += ".flags-4 { background-color: #D9534F; } /* #F00 */\n";
+	"use strict";
+	var extensionStyle = ".flags { color: #FFF; padding: 0 0.5em 0.1em 0.45em; margin-left: 0.3em; vertical-align: baseline; text-transform: lowercase; text-align: center; text-shadow: 1px 1px 1px #7F7F7F; line-height: 1; font-weight: 700; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; border-radius: 0.25em; }\n";
+	extensionStyle += ".flags-1 { background-color: #5CB85C; }\n";
+	extensionStyle += ".flags-2 { background-color: #F0AD4E; }\n";
+	extensionStyle += ".flags-4 { background-color: #D9534F; }\n";
 
 	function addStyle(css) {
 		var head = document.getElementsByTagName("head")[0];
