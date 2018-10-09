@@ -31,8 +31,8 @@
 	$(function() {
 		p.View.Stream.Item.prototype.template =
 		p.View.Stream.Item.prototype.template
-			.replace('Bild googeln </a> </span> <?js } ?>',
-					 'Bild googeln </a> </span> <?js } ?> <span class="flags flags-{item.flags}">{p.Stream.FLAG_NAME[item.flags]}</span>');
+			.replace('melden</span>] <?js } ?>',
+					 'melden</span>] <?js } ?> <span class="flags flags-{item.flags}">{p.Stream.FLAG_NAME[item.flags]}</span>');
 		addStyle(extensionStyle);
 	});
 })();
