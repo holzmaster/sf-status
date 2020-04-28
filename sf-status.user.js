@@ -15,7 +15,7 @@
 
 (function () {
 	const s = document.createElement('script');
-	s.appendChild(document.createTextNode('(' + uneval(main) + ')();'));
+	s.appendChild(document.createTextNode('(' + main.toString() + ')();'));
 	(document.body || document.head || document.documentElement).appendChild(s);
 
 	function main() {
