@@ -5,7 +5,7 @@
 // @namespace	holzmaster
 // @include		http://pr0gramm.com*
 // @include		https://pr0gramm.com*
-// @version		1.2.0
+// @version		1.3.0
 // @updateURL	https://holzmaster.github.io/sf-status/sf-status.user.js
 // @downloadURL	https://holzmaster.github.io/sf-status/sf-status.user.js
 // @copyright	2015+, holzmaster
