@@ -3,9 +3,8 @@
 // @author		holzmaster
 // @description Zeigt den SF-Status eines Bildes an.
 // @namespace	holzmaster
-// @include		http://pr0gramm.com*
 // @include		https://pr0gramm.com*
-// @version		1.4.0
+// @version		1.4.1
 // @updateURL	https://holzmaster.github.io/sf-status/sf-status.user.js
 // @downloadURL	https://holzmaster.github.io/sf-status/sf-status.user.js
 // @copyright	2015+, holzmaster
